@@ -9,3 +9,11 @@ transformers
 jupyter
 ipykernel
 sentencepiece
+langchain
+langchain-text-splitters
+langchain-community
+bs4
+langchain[google-genai]
+langchain_chroma
+google-generativeai
+streamlit
