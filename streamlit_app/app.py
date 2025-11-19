@@ -230,7 +230,7 @@ def main():
     st.markdown(
         "<div style='text-align: center; color: gray;'>"
         "Built with LangChain, ChromaDB, and Google Gemini"
-        "Jose Pablo Hernandez with a little help from LLMs"
+        " - Jose Pablo Hernandez with a little help from LLMs"
         "</div>",
         unsafe_allow_html=True
     )
