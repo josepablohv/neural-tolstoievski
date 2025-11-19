@@ -16,5 +16,10 @@ Install the necessary libraries:
 pip install -r requirements.txt
 ```
 
-## Usage
-- **Data Cleaning**: Refer to `notebooks/01_data_cleaning.ipynb` for preprocessing raw text data.
+## Notebooks
+- `notebooks/01_data_cleaning.ipynb`: data loading, profiling and cleaning steps used to produce the cleaned texts.
+- `notebooks/04_language_model_feeding.ipynb`: preparing tokenized data and feeding examples to language models.
+- `notebooks/05_author_encoder_classifier.ipynb`: experiments with author encoding and classification.
+- `notebooks/06_rag_qa_model.ipynb`: LangChain RAG Q&A demo — this notebook and the small Streamlit app in `streamlit_app/` belong to the same RAG/QA mini-project.
+
+Keep other notebooks for exploration; the four listed above are the main entry points for the current pipeline and RAG demo.
