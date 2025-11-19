@@ -17,3 +17,4 @@ langchain[google-genai]
 langchain_chroma
 google-generativeai
 streamlit
+python-dotenv
